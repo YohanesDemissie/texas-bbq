@@ -1,0 +1,26 @@
+.blue-background {
+  background-color: black;
+  color: white;
+}
+
+.home-container {
+  justify-content: center;
+}
+
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+hr {
+  width: 350px;
+  margin-top: 25px;
+}
+
+.home-text {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 15% 0 15%;
+  line-height: 90px;
+}
