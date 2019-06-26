@@ -1,0 +1,32 @@
+.products-title {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.products-container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-description {
+  text-align: center;
+}
+
+.product-break {
+  margin: 20px 40% 20px 40%;
+  border-color: blue;
+}
+
+.bundle-two {
+  width: 380px;
+  /* margin-right: 10%; */
+}

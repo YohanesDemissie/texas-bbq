@@ -22,7 +22,7 @@ li {
   color: white;
 }
 
-li:hover {
+.links:hover {
   text-decoration: underline;
   color: red;
 }
