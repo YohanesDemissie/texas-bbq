@@ -14,7 +14,8 @@
 }
 
 hr {
-  width: 350px;
+  border-color: blue;
+  width: 600px;
   margin-top: 25px;
 }
 

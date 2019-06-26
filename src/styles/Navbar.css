@@ -1,24 +1,44 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  background-color: red;
+  background-image: linear-gradient(blue, blue, black)
 }
 
 ul.navbar {
   margin-top: 0px;
-}
-
-.logo {
-  width: 40%;
-  height: 40%;
+  margin-bottom: 0px;
 }
 
 li {
   color: white;
   list-style: none;
   font-size: 50px;
-  margin-top: 10%;
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
   font-weight: 700;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.logo-container {
+  background-color: black;
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+
 }
 
 .title {
