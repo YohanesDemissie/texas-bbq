@@ -1,13 +1,15 @@
-var Data = [{
+var Data = {
   beans: {
     garlicPinto: {
       title: "Mr. Texas Glorious Garlic Pinto Beans",
       description: "",
       price: "6.99"
     },
-    radiantRed: "Mr. Texas Radiant Red Beans",
-    description: "",
-    price: "6.99"
+    radiantRed: {
+      title: "Mr. Texas Radiant Red Beans",
+      description: "",
+      price: "6.99"
+    }
   },
 
   spices: {
@@ -41,6 +43,6 @@ var Data = [{
     }
     
   }
-}]
+}
 
 export default Data;

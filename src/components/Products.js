@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Data from '../Data';
 // IMAGES
 import BoldBeef from '../media/bold-beef.png';
 import RoyalPork from '../media/royal-pork.png';
@@ -21,33 +22,33 @@ function Products() {
         <div>
           <img className="product-image" src={BoldBeef} alt="Mr. Texas Glorious Garlic Pinto Beans" />
           <div className="product-description">
-            Garlic Pinto Beans
+            {Data.spices.boldBeef.title}
           </div>
           <hr className="product-break" />
           <div className="product-description">
-            $6.99
+            ${Data.spices.boldBeef.price}
           </div>
         </div>
 
         <div >
           <img className="product-image" src={RoyalPork} alt="Mr. Texas Radiant Red Beans" />
           <div className="product-description">
-            Radiant Red Beans
+            {Data.spices.royalPork.title}
             </div>
           <hr className="product-break" />
           <div className="product-description">
-            $6.99
+            ${Data.spices.royalPork.price}
             </div>
         </div>
 
         <div >
           <img className="product-image" src={SavoryPoultry} alt="Mr. Texas Radiant Red Beans" />
           <div className="product-description">
-            Radiant Red Beans
+            {Data.spices.savoryPoultry.title}
             </div>
           <hr className="product-break" />
           <div className="product-description">
-            $6.99
+            ${Data.spices.savoryPoultry.price}
             </div>
         </div>
       </div>
@@ -57,22 +58,23 @@ function Products() {
         <div>
         <img className="product-image" src={PintoBeans} alt="Mr. Texas Glorious Garlic Pinto Beans" />
           <div className="product-description">
-            Garlic Pinto Beans
+            {Data.beans.garlicPinto.title}
           </div>
           <hr className="product-break"/>
           <div className="product-description">
-            $6.99
+            ${Data.beans.garlicPinto.price}
           </div>
+          <button className="purchase-button">add to cart</button>
         </div>
 
         <div>
           <img className="product-image" src={RedBeans} alt="Mr. Texas Radiant Red Beans" />
           <div className="product-description">
-            Radiant Red Beans
+            {Data.beans.radiantRed.title}
             </div>
           <hr className="product-break" />
           <div className="product-description">
-            $6.99
+            ${Data.beans.radiantRed.price}
             </div>
         </div>
       </div>
@@ -82,11 +84,12 @@ function Products() {
         <div>
           <img className="product-image" src={BundleOne} alt="Mr. Texas Glorious Garlic Pinto Beans" />
           <div className="product-description">
-            Garlic Pinto Beans
+            {Data.beans.garlicPinto.title}
           </div>
           <hr className="product-break" />
           <div className="product-description">
-            $6.99
+            ${Data.beans.garlicPinto.price}
+
           </div>
         </div>
 

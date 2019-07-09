@@ -30,3 +30,7 @@
   width: 380px;
   /* margin-right: 10%; */
 }
+
+.purchase-button {
+  margin: 0px 40% auto;
+}
