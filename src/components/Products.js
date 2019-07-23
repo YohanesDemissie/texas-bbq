@@ -10,6 +10,7 @@ import PintoBeans from '../media/bbqpintobeans.png';
 import RedBeans from '../media/bbqredbeans.png';
 import BundleOne from '../media/bundle-one.png';
 import BundleTwo from '../media/bundle-two.png';
+import Shirt from '../media/bbq-shirt.png'
 
 import '../styles/Products.css'
 
@@ -28,7 +29,7 @@ class Products extends React.Component {
     return(
       <div>
         <Navbar />
-        <div className="products-title">Seasonings</div>
+        <a name='seasonings'><div className="products-title">Seasonings</div></a>
         <div className="products-container">
           <div>
             <img className="product-image" src={BoldBeef} alt="Mr. Texas Glorious Garlic Pinto Beans" />
@@ -64,7 +65,7 @@ class Products extends React.Component {
           </div>
         </div>
   
-        <a name="chapter4"> <div className="products-title">Beans</div></a>
+        <a name="beans"><div className="products-title">Beans</div></a>
         <div className="products-container">
           <div>
           <img className="product-image" src={PintoBeans} alt="Mr. Texas Glorious Garlic Pinto Beans" />
@@ -75,7 +76,7 @@ class Products extends React.Component {
             <div className="product-description">
               ${Data.beans.garlicPinto.price}
             </div>
-            <button className="purchase-button">add to cart</button>
+            {/* <button className="purchase-button">add to cart</button> */}
           </div>
   
           <div>
@@ -115,7 +116,22 @@ class Products extends React.Component {
               $6.99
               </div>
           </div>
-  
+          
+        </div>
+
+        <a name='merchandise'><div className="products-title">Merchandise</div></a>
+        <div className="products-container">
+          <div>
+            <img className="product-image" src={Shirt} alt="Mr. Texas Glorious Garlic Pinto Beans" />
+            <div className="product-description">
+              {Data.merchandise.bbqShirt.title}
+            </div>
+            <hr className="product-break" />
+            <div className="product-description">
+              {Data.merchandise.bbqShirt.price}
+            </div>
+          </div>
+
         </div>
         <Footer />
       </div>

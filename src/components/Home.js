@@ -17,22 +17,27 @@ function Home() {
         <hr className="home-hr" />
 
         <div className="products-shortcut">
-          <div className="seasonings">
+          <a href='/products/#seasonings'>
+            <div className="seasonings">
               Seasonings
-            <div className="seasonings-img"></div>
-          </div>
-
-          <a href='/products/#chapter4'><div className="beans">
-            Beans
-            <div className="beans-img"></div>
-          </div>
+              <div className="seasonings-img"></div>
+            </div>
           </a>
 
-          <div className="apparel">
-            Apparel
-            <div className="apparel-img" alt="apparel"></div>
+          <a href='/products/#beans'>
+            <div className="beans">
+              Beans
+              <div className="beans-img"></div>
+            </div>
+          </a>
+
+          <a href='/products/#merchandise'>
+            <div className="apparel">
+              Apparel
+              <div className="apparel-img" alt="apparel"></div>
+            </div>
+          </a>
           </div>
-        </div>
 
       <hr className="home-hr" />
 
