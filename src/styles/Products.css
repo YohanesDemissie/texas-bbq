@@ -1,7 +1,7 @@
 .products-title {
-  background-color: black;
+  background-color: white;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
 }
 
@@ -9,8 +9,8 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .product-image {

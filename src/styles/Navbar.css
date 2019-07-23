@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  background-image: linear-gradient(blue, blue, black)
+  background-image: linear-gradient(blue, blue, white);
+  padding-bottom: 40px;
 }
 
 ul.navbar {
@@ -10,7 +11,7 @@ ul.navbar {
 }
 
 li {
-  color: white;
+  color: black;
   list-style: none;
   font-size: 50px;
   margin-top: 25px;
@@ -28,7 +29,7 @@ li {
 }
 
 .logo-container {
-  background-color: black;
+  background-color: white;
 }
 
 .logo {
@@ -37,7 +38,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: white;
 
 }
 

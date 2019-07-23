@@ -17,21 +17,21 @@ function Home() {
         <hr className="home-hr" />
 
         <div className="products-shortcut">
-          <a href='/products/#seasonings'>
+          <a href='/products/#seasonings' className="product-links">
             <div className="seasonings">
               Seasonings
               <div className="seasonings-img"></div>
             </div>
           </a>
 
-          <a href='/products/#beans'>
+          <a href='/products/#beans' className="product-links">
             <div className="beans">
               Beans
               <div className="beans-img"></div>
             </div>
           </a>
 
-          <a href='/products/#merchandise'>
+          <a href='/products/#merchandise' className="product-links">
             <div className="apparel">
               Apparel
               <div className="apparel-img" alt="apparel"></div>

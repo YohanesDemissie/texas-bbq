@@ -6,8 +6,8 @@
 } */
 
 .locations-title {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 60px;
   text-align: center;
   padding-bottom: 40px;
@@ -15,8 +15,8 @@
 
 .locations-row-one {
   padding-top: 0px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 
   display: inline-block;
   display: -moz-inline-box;
@@ -28,15 +28,15 @@
 
 .locations {
   text-align: center;
-  background-color: black;
+  background-color: white;
   font-size: 30px;
   margin-bottom: 70px;
 }
 
 .locations-row-two {
   padding-top: 0px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 
   display: inline-block;
     display: -moz-inline-box;
@@ -46,8 +46,8 @@
     text-align: center;
 
 }.locations-row-three {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 
   display: inline-block;
   display: -moz-inline-box;
@@ -58,9 +58,9 @@
 }
 
 .last-location {
-  background-color: black;
+  background-color: white;
   text-align: center;
-  color: white;
+  color: black;
   padding-bottom: 70px;
   font-size: 30px;
 }

@@ -1,5 +1,5 @@
 .copyright {
-  background-color: black;
+  background-color: white;
   margin-bottom: 0px;
   padding: 30px;
   text-align: center;
@@ -10,10 +10,10 @@
   margin: 0px 0px 1px 0px;
   color: black;
   padding-top: 50px;
-  background-color: black;
-  border-left-color: black;
-  border-right-color: black;
-  border-top-color: black;
+  background-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-top-color: white;
 }
 
 .terms-conditions {
