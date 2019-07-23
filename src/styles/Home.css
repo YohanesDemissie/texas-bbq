@@ -25,3 +25,128 @@
   margin: 0 15% 0 15%;
   line-height: 90px;
 }
+
+.products-shortcut {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: white;
+  /* margin: 50px 15% 50px 15%; */
+  width: 100%;
+}
+
+/* .beans {
+  position: relative;
+  display: inline-block;
+}
+
+.beans-img {
+  width: 50%;
+  background-color: rgba(50, 50, 50, 0.5);
+  opacity: 0.1;
+  padding: 5%;
+}
+
+.beans-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+} */
+
+.apparel {
+  position: relative;
+  display: inline-block;
+}
+
+.apparel-img {
+  width: 50%;
+  background-color: rgba(50, 50, 50, 0.5);
+  opacity: 0.1;
+  padding: 5%;
+}
+
+.apparel-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.seasonings {
+  background-color: rgba(50, 50, 50, 0.9);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.seasonings-img {
+  background-image: url(../media/bundle-one.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  opacity: 0.6;
+}
+
+.seasonings-img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.beans {
+  background-color: rgba(50, 50, 50, 0.9);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.beans-img {
+  background-image: url(../media/bbqpintobeans.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  opacity: 0.6;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.beans-img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.apparel {
+  background-color: rgba(50, 50, 50, 0.9);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.apparel-img {
+  background-image: url(../media/bbq-shirt.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  opacity: 0.6;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.apparel-img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
