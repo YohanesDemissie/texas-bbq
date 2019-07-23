@@ -2,11 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import beans from '../media/bbqpintobeans.png';
-import seasonings from '../media/bundle-one.png';
-import apparel from '../media/bbq-shirt.png';
 import '../styles/Home.css'
-
 
 function Home() {
   return (
@@ -26,10 +22,11 @@ function Home() {
             <div className="seasonings-img"></div>
           </div>
 
-          <div className="beans">
+          <a href='/products/#chapter4'><div className="beans">
             Beans
             <div className="beans-img"></div>
           </div>
+          </a>
 
           <div className="apparel">
             Apparel

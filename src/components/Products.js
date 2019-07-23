@@ -64,7 +64,7 @@ class Products extends React.Component {
           </div>
         </div>
   
-        <div className="products-title">Beans</div>
+        <a name="chapter4"> <div className="products-title">Beans</div></a>
         <div className="products-container">
           <div>
           <img className="product-image" src={PintoBeans} alt="Mr. Texas Glorious Garlic Pinto Beans" />
