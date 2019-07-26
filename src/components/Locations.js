@@ -10,7 +10,8 @@ function Locations() {
       <div className="locations-title">
         Find a Store Near You
       </div>
-      {/* <hr className="locations-line"/> */}
+      <hr className="locations-hr" />
+
       <div className="locations-row-one">
         <div className="locations">
           <b>Harbor Greens</b>

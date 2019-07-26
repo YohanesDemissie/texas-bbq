@@ -1,16 +1,22 @@
-/* .locations-line {
-  background-color: blue;
-  width: 10px;
-  margin: 0px;
-  background-color: black;
-} */
+@import url('https://fonts.googleapis.com/css?family=Smokum&display=swap');
 
 .locations-title {
   background-color: white;
   color: black;
   font-size: 60px;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+
+  font-family: 'Smokum';
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 100px;
+}
+
+.locations-hr {
+  border-color: blue;
+  width: 600px;
+  margin-bottom: 60px;
 }
 
 .locations-row-one {
@@ -45,7 +51,9 @@
     width: 50%;
     text-align: center;
 
-}.locations-row-three {
+}
+
+.locations-row-three {
   background-color: white;
   color: black;
 
@@ -61,6 +69,6 @@
   background-color: white;
   text-align: center;
   color: black;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   font-size: 30px;
 }
