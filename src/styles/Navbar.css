@@ -21,11 +21,12 @@ li {
 .links {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
 }
 
 .links:hover {
-  text-decoration: underline;
   color: red;
+  transition-delay:0.1s;
 }
 
 .logo-container {
@@ -33,8 +34,8 @@ li {
 }
 
 .logo {
-  width: 25%;
-  height: 25%;
+  width: 35%;
+  height: 35%;
   display: block;
   margin-left: auto;
   margin-right: auto;

@@ -1,3 +1,24 @@
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-description {
+    line-height: 90px;
+    font-size: 50px;
+}
+
 .email-link {
-  margin: auto;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.link-container {
+  margin: 50px;
 }

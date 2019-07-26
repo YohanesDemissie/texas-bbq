@@ -39,7 +39,7 @@ function Home() {
           </a>
           </div>
 
-      <hr className="home-hr" />
+      {/* <hr className="home-hr" /> */}
 
       <Footer />
     </div>

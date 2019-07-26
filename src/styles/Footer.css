@@ -1,3 +1,24 @@
+.footer-hr {
+  border-color: blue;
+  width: 600px;
+  margin-top: 25px;
+}
+
+ .back-to-top-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-to-top {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+}
+
+.back-to-top:hover {
+  color: red;
+}
+
 .copyright {
   background-color: white;
   margin-bottom: 0px;
@@ -7,6 +28,8 @@
 }
 
 .break-line {
+  margin-top: 30px;
+/*
   margin: 0px 0px 1px 0px;
   color: black;
   padding-top: 50px;
@@ -14,7 +37,8 @@
   border-left-color: white;
   border-right-color: white;
   border-top-color: white;
-}
+  */
+} 
 
 .terms-conditions {
   margin-top: 20px;
