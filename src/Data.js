@@ -1,7 +1,7 @@
 var Data = {
   beans: {
     garlicPinto: {
-      title: "Mr. Texas Glorious Garlic Pinto Beans",
+      title: "Glorious Garlic Pinto Beans",
       description: "",
       price: "6.99"
     },
@@ -24,7 +24,7 @@ var Data = {
       price: "6.99"
     },
     savoryPoultry: {
-      title: "Savory Chicken and Turkey Seasoning",
+      title: "Savory Poultry",
       description: "",
       price: "6.99",
     },

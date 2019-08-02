@@ -123,11 +123,11 @@ class Products extends React.Component {
         <div className="products-container">
           <div>
             <img className="product-image" src={Shirt} alt="Mr. Texas Glorious Garlic Pinto Beans" />
-            <div className="product-title">
+            <div className="merchandise-description">
               {Data.merchandise.bbqShirt.title}
             </div>
             <hr className="product-break" />
-            <div className="product-price">
+            <div className="merchandise-price">
               {Data.merchandise.bbqShirt.price}
             </div>
           </div>
