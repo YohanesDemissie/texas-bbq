@@ -18,12 +18,77 @@
   color: black;
 }
 
-.product-image {
-  width: 100%;
+.seasonings-image {
+  width: 150px;
 }
 
-.product-description {
+.seasonings-description {
+  font-weight: 700;
+  font-size: 20px;
+  width: 150px;
   text-align: center;
+}
+
+.seasonings-price {
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.product-image {
+  width: 350px;
+}
+
+.bundle-one-image {
+  width: 500px;
+}
+
+.beans-image {
+  width: 250px;
+}
+
+.beans-description {
+  font-weight: 700;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.beans-price {
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.bundle-one-description {
+  text-align: center;
+  width: 250px;
+  font-size: 20px;
+}
+
+
+.product-title {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px auto;
+
+}
+
+.product-price {
+  width: 200px;
+  margin: 0px 150px;
+  /* text-align: center; */
+
+  font-size: 20px;
+}
+
+.bundle-one-price {
+  width: 200px;
+  margin: 0px auto;
+  text-align: center;
+
+  font-size: 20px;
 }
 
 .product-break {
